@@ -1,6 +1,14 @@
 # Aliyun OSS SDK for React Native
 
-## [README of English](https://github.com/aliyun/aliyun-oss-react-native/blob/master/README.md)
+## [README of English](./README.md)
+
+## 写在前面
+
+由于官方多年没有更新且也没有推出替代品（在此严厉批评，明明是个商业项目），所以我 fork 该项目进行了一些修补以支持更高版本的一些情况。
+一些内容尚有所不足，希望后续能弥补好。
+
+由于我只熟悉 Android 这一块的，所以我只支持了 Android 这一块的内容。如果你有一些修复也可以推给我。
+谢谢！
 
 ## 简介
 
@@ -44,7 +52,7 @@ npm install aliyun-oss-react-native  --save
 * yarn
 
 ```script
-yarn install aliyun-oss-react-native --save
+yarn add aliyun-oss-react-native --save
 ```
 ### 自动安装
 

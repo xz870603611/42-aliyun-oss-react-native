@@ -1,6 +1,16 @@
 # Alibaba Cloud OSS SDK for React Native
 
-## [README of Chinese](https://github.com/aliyun/aliyun-oss-react-native/blob/master/README-CN.md)
+## [README of Chinese](./README-CN.md)
+
+## Previous introduction
+
+Since the official has not updated for many years and has not introduced a replacement 
+(I am severely criticized here, it is obviously a commercial project), 
+so I fork the project and make some fixes to support some situations in the higher version.
+Some of the content is still inadequate, and I hope to make up for it later.
+
+Since I am only familiar with Android, I only support the content of Android. 
+If you have some fixes, you can also push it to me. Thank you!
 
 ## Introduction
 
@@ -42,7 +52,7 @@ npm install aliyun-oss-react-native --save
 * yarn
 
 ```
-yarn install aliyun-oss-react-native --save
+yarn add aliyun-oss-react-native --save
 ```
 
 ### Automatic Installation
