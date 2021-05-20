@@ -47,12 +47,12 @@ NOTE: THIS PACKAGE IS NOW BUILT FOR REACT NATIVE 0.40 OR GREATER
 * npm
 
 ```
-npm install aliyun-oss-react-native --save
+npm install aliyun-oss-react-native-fix --save
 ```
 * yarn
 
 ```
-yarn add aliyun-oss-react-native --save
+yarn add aliyun-oss-react-native-fix --save
 ```
 
 ### Automatic Installation
@@ -60,7 +60,7 @@ yarn add aliyun-oss-react-native --save
 run `react-native link` in the react native project
 
 ```
-react-native link aliyun-oss-react-native
+react-native link aliyun-oss-react-native-fix
 ```
 
 `Note`：for suppport IPv6-Only networkd，you need to require :
@@ -77,7 +77,7 @@ react-native link aliyun-oss-react-native
 - **CocoaPods**
 
 ```
-pod 'aliyun-oss-react-native', :path => '../node_modules/aliyun-oss-react-native'
+pod 'aliyun-oss-react-native-fix', :path => '../node_modules/aliyun-oss-react-native-fix'
 ````
 
 - **no CocoaPods**
@@ -89,17 +89,17 @@ pod 'aliyun-oss-react-native', :path => '../node_modules/aliyun-oss-react-native
 #### Android
 1. Add the following lines to `android/settings.gradle`:
 
-```gradle
-include ':react-native-react-sdk'
-project(':react-native-react-sdk').projectDir = new File(rootProject.projectDir, '../node_modules/aliyun-oss-rn-sdk/android')
-```
+    ```gradle
+    include ':aliyun-oss-react-native-fix'
+    project(':aliyun-oss-react-native-fix').projectDir = new File(rootProject.projectDir, '../node_modules/aliyun-oss-react-native-fix/android')
+    ```
 
 2. Add the compile line to the dependencies in `android/app/build.gradle`:
-```gradle
-dependencies {
-  compile project(':aliyun-oss-react-native')
-}
-```
+    ```gradle
+    dependencies {
+        implementation project(':aliyun-oss-react-native-fix')
+    }
+    ```
 3. Add the required permissions in `AndroidManifest.xml`:
 
   ```xml
@@ -129,7 +129,7 @@ Now ,all the API returns Promise Object exception init OSS Client API and enable
 
 * step-1:import AliyunOSS
 ```
-import AliyunOSS from 'aliyun-oss-react-native'
+import AliyunOSS from 'aliyun-oss-react-native-fix'
 ```
 * step-2:open debug mode  (optional)
 

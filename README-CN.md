@@ -46,20 +46,20 @@
 * npm
 
 ```script
-npm install aliyun-oss-react-native  --save
+npm install aliyun-oss-react-native-fix  --save
 ```
 
 * yarn
 
 ```script
-yarn add aliyun-oss-react-native --save
+yarn add aliyun-oss-react-native-fix --save
 ```
 ### 自动安装
 
 react native项目下运行`react-native link`命令
 
 ```script
-react-native link aliyun-oss-react-native
+react-native link aliyun-oss-react-native-fix
 ```
 
 注意：由于react native脚手架不同版本的问题，有时候自动安装可能会失败，可手动添加android和iOS的的依赖库。同样为了兼容IPv6-Only网络，iOS工程中需参考aliyun-oss-ios-sdk说明中引入以下包。
@@ -75,7 +75,7 @@ react-native link aliyun-oss-react-native
 
 - **CocoaPods**
 ```
-pod 'aliyun-oss-react-native', :path => '../node_modules/aliyun-oss-react-native'
+pod 'aliyun-oss-react-native-fix', :path => '../node_modules/aliyun-oss-react-native-fix'
 ````
 
 - **非CocoaPods**
@@ -87,13 +87,13 @@ pod 'aliyun-oss-react-native', :path => '../node_modules/aliyun-oss-react-native
 #### Android
 1. `settings.gradle`
     ```gradle
-    include ':aliyun-oss-react-native'
-    project(':aliyun-oss-react-native').projectDir = new File(rootProject.projectDir, '../node_modules/aliyun-oss-react-native/android')
+    include ':aliyun-oss-react-native-fix'
+    project(':aliyun-oss-react-native-fix').projectDir = new File(rootProject.projectDir, '../node_modules/aliyun-oss-react-native-fix/android')
     ```
 2. `build.gradle`
     ```gradle
     dependencies {
-        compile project(':aliyun-oss-react-native')
+        implementation project(':aliyun-oss-react-native-fix')
     }
     ```
 
@@ -119,7 +119,7 @@ pod 'aliyun-oss-react-native', :path => '../node_modules/aliyun-oss-react-native
 
 * step-1:导入AliyunOSS
 ```
-import AliyunOSS from 'aliyun-oss-react-native'
+import AliyunOSS from 'aliyun-oss-react-native-fix'
 ```
 * step-2:开启调试模式 (可选)
 
