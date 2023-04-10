@@ -1,6 +1,6 @@
 {
-  "name": "aliyun-oss-react-native-fix-futher",
-  "version": "1.0.3",
+  "name": "42-aliyun-oss-react-native-fix-futher",
+  "version": "1.1.0",
   "description": "React Native SDK for aliyun object storage service , live maintained",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:DeepRolling/aliyun-oss-react-native.git"
+    "url": "https://github.com/xz870603611/42-aliyun-oss-react-native.git"
   },
   "keywords": [
     "oss",

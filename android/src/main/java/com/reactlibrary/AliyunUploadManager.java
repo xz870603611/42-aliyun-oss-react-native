@@ -115,9 +115,9 @@ public class AliyunUploadManager {
         OSSAsyncTask task = mOSS.asyncPutObject(put, new OSSCompletedCallback<PutObjectRequest, PutObjectResult>() {
             @Override
             public void onSuccess(PutObjectRequest request, PutObjectResult result) {
-                Log.d("PutObject", "UploadSuccess");
-                Log.d("ETag", result.getETag());
-                Log.d("RequestId", result.getRequestId());
+                // Log.d("PutObject", "UploadSuccess");
+                // Log.d("ETag", result.getETag());
+                // Log.d("RequestId", result.getRequestId());
                 promise.resolve("UploadSuccess");
             }
 

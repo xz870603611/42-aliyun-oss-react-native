@@ -24,7 +24,7 @@
 #import "OSSDeleteMultipleObjectsRequest.h"
 #import "OSSDeleteMultipleObjectsResult.h"
 
-#import "OSSClient.h"
+
 #import "OSSModel.h"
 #import "OSSUtil.h"
 #import "OSSLog.h"
